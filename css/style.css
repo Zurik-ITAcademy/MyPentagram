@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* First block  first_block */
+
+#first_block{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/567310_view-from-the-google-offices-in-downtown-tokyo-mac-wallpapers_2560x1600_h.jpg) center / cover no-repeat  fixed;
+}
+
+.block_main_menu{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_menu{
+    width: 50px;
+    height: 15%;
+    margin: 0% 0% 2% 5%;
+}
+
+.text_menu h1{
+    font-size: 35px;
+    color: #E40506;
+}
+
+.text_menu h1:hover{
+    color: rgba(150, 15, 145, 0.8);
+    transition: 1.5s;
+}
+
+.nav_menu{
+    margin: 0px 15px 0px 0px;
+    width: 45%;
+    height: 15%;
+    padding: 2% 0;
+
+}
+
+.nav_menu ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+.nav_menu ul a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 20px;
+    font-weight: 600;
+}
+
+.nav_menu li:hover{
+    text-decoration: underline;
+    color: rgba(0, 250, 250, .8);
+}
+
+.fa-search:hover{
+    color: rgba(0, 20, 50, .4);
+    font-size: 20px;
+}
+
+.next_bottom_text{
+    width: 60%;
+    height: 20%;
+    margin: 25% 0% 0% 7%;
+}
+
+.next_bottom_text h1{
+    font-size: 21px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Second Block grids */
+
+#grid_block1{
+    width: 90%;
+    height: 80vh;
+    padding: 2% 3%;
+    position: relative;
+}
+
+.grids_child1{
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.photo_1{
+    background: url(../img/EMO_WizardsUnite_01.jpg) left center no-repeat fixed;
+    grid-column: 1/3;
+    grid-row: 1/6;
+}
+
+.photo_2{
+    background: url(../img/djs_wwfmagazine_01.jpg) center / cover ;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.photo_3{
+    background: url(../img/jo_glaciersrequiem_01.jpg) bottom / cover;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+.photo_4{
+    background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+    grid-column: 3/4;
+    grid-row: 3/6;
+}
+
+.photo_5{
+    background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+    grid-column: 4/5;
+    grid-row: 3/6;
+}
+
+/* third block grids */
+
+#grid_block2{
+    width: 90%;
+    height: 80vh;
+    padding: 0% 5%;
+}
+
+.grids_child2{
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.photos_1{
+    background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.photos_2{
+    background: url(../img/nj_milly_01.jpg) center / cover;
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+.photos_3{
+    background: url(../img/ah_williammorris_02.jpg) center / cover;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.photos_4{
+    background: url(../img/jr_bertazzoni_01.jpg) center / cover;
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+
+.photos_5{
+    background: url(../img/lh_designedbyapple_01.jpg) left center  fixed;
+    right: -100px;
+    grid-column: 3/5;
+    grid-row: 1/5;
+}
+
+/* Fourth block grids */
+
+#grid_block3{
+    width: 90%;
+    height: 80vh;
+    padding: 0% 3%;
+}
+
+.grids_child3{
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.photos1{
+
+    background: url(../img/ps_highline_02_newwebsite.jpg) left top no-repeat fixed;
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.photos2{
+    background: url(../img/dl_lcc_01.jpg) center / cover;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.photos3{
+    background: url(../img/2021_PS_Public.jpg) center / cover;
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+.photos4{
+    background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+.photos5{
+    background: url(../img/dl_lcc_01.jpg) center / cover;
+    grid-column: 4/5;
+    grid-row: 3/5;
+}
+
+/* Fifth block grids */
+
+#grid_block4{
+    width: 90%;
+    height: 70vh;
+    padding: 0% 3%;
+}
+
+.grids_child4{
+    display: grid;
+    grid-template: repeat(4, 80px) / repeat(4, 1fr);
+    grid-gap: 20x;
+}
+
+.input_1{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.input_2{
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.input_3{
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
+
+.input_4{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+
+.input_5{
+    grid-column: 1/6;
+    grid-row: 5/6;
+}
+
+.input_1 input{
+    padding: 1% 5% 1% 1%;
+    margin: 0 auto;
+}
+
+.input_2 input{
+    padding: 1% 5% 1% 1%;
+}
+
+.input_3 input{
+    padding: 1% 5% 1% 1%;
+}
+
+.input_4 input{
+    padding: 1% 5% 1% 1%;
+}
+
+.input_5 a input{
+    padding: 1% 5%;
+    background-color: #181816;
+    color: #ACAEAA;
+    border-radius: none;
+    cursor: pointer;
+}
+
+.image_grid{
+    display: grid;
+    grid-template: repeat(5, 80px) / repeat(4, 1fr);
+    float: right;
+}
+
+.grids_child4 input{
+    margin: 5% 0% 0% 8%;
+}
+
+.img{
+    background: url(../img/BlogPosts_FNL.jpg) center / cover;
+    grid-column: 3/6;
+    grid-row: 1/7;
+}
+
+/* ======================================================================================================================================= */
+        /* Адаптация на 800px */
+ @media screen and (max-width: 800px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #first_block{
+        width: 100%;
+        height: 90vh;
+        background: url(../img/567310_view-from-the-google-offices-in-downtown-tokyo-mac-wallpapers_2560x1600_h.jpg) center left no-repeat  fixed;
+    }
+    
+    .block_main_menu{
+        width: 100%;
+        height: 15vh;
+        display: block ;
+    }
+    
+    .text_menu{
+        width: 50px;
+        height: 15%;
+
+    }
+    
+    .text_menu h1{
+        font-size: 25px;
+        color: #E40506;
+        margin: 0 auto;
+    }
+    
+    .text_menu h1:hover{
+        color: rgba(150, 15, 145, 0.8);
+        transition: 1.5s;
+    }
+    
+    .nav_menu{
+        width: 45%;
+        height: 15%;
+        padding: 1% 0% 1% 3%;
+    
+    }
+    
+    .nav_menu ul{
+        list-style: none;
+        float: left;
+        display: block;
+    }
+    
+    .nav_menu ul a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .nav_menu li:hover{
+        text-decoration: underline;
+        color: rgba(0, 250, 250, .8);
+    }
+
+    .fa-search:hover{
+        color: rgba(0, 20, 50, .4);
+        font-size: 20px;
+    }
+    
+    .next_bottom_text{
+        width: 60%;
+        height: 20%;
+    }
+    
+    .next_bottom_text h1{
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    /* Second Block grids */
+    
+    #grid_block1{
+        width: 90%;
+        height: 150vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child1{
+        display: grid;
+        grid-template: repeat(6, 100px) / repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    
+    .photo_1{
+        background: url(../img/EMO_WizardsUnite_01.jpg) right center no-repeat fixed;
+        grid-column: 1/5;
+        grid-row: 1/4;
+    }
+    
+    .photo_2{
+        background: url(../img/djs_wwfmagazine_01.jpg) center / cover ;
+        grid-column: 3/4;
+        grid-row: 4/6;
+    }
+    
+    .photo_3{
+        background: url(../img/jo_glaciersrequiem_01.jpg) bottom / cover;
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+    
+    .photo_4{
+        background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+    
+    .photo_5{
+        background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+        grid-column: 4/5;
+        grid-row: 4/6;
+    }
+    
+    /* third block grids */
+    
+    #grid_block2{
+        width: 90%;
+        height: 180vh;
+        padding: 0% 5%;
+    }
+    
+    .grids_child2{
+        display: grid;
+        grid-template: repeat(6, 100px) / repeat(4, 1fr);
+        grid-gap: 20px;
+        width: 100%;
+    }
+    
+    .photos_1{
+        background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    
+    .photos_2{
+        background: url(../img/nj_milly_01.jpg) center / cover;
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    
+    .photos_3{
+        background: url(../img/ah_williammorris_02.jpg) center / cover;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    .photos_4{
+        background: url(../img/jr_bertazzoni_01.jpg) center / cover;
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+    
+    .photos_5{
+        background: url(../img/lh_designedbyapple_01.jpg) left center  fixed;
+        grid-column: 1/5;
+        grid-row: 3/7;
+    }
+    
+    /* Fourth block grids */
+    
+    #grid_block3{
+        width: 90%;
+        height: 160vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child3{
+        display: grid;
+        grid-template: repeat(6, 100px) / repeat(4, 1fr);
+        grid-gap: 20px;
+        width: 100%;
+    }
+    
+    .photos1{
+    
+        background: url(../img/ps_highline_02_newwebsite.jpg) left top no-repeat fixed;
+        grid-column: 1/5;
+        grid-row: 3/7;
+    }
+    
+    .photos2{
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    
+    .photos3{
+        background: url(../img/2021_PS_Public.jpg) center / cover;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    
+    .photos4{
+        background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    
+    .photos5{
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+    
+    /* Fifth block grids */
+    
+    #grid_block4{
+        width: 90%;
+        height: 100vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child4{
+        display: grid;
+        grid-template: repeat(4, 80px) / repeat(4, 1fr);
+        grid-gap: 20x;
+    }
+    
+    .input_1{
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    
+    .input_2{
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    
+    .input_3{
+        grid-column: 1/6;
+        grid-row: 3/4;
+    }
+    
+    .input_4{
+        grid-column: 1/6;
+        grid-row: 4/5;
+    }
+    
+    .input_5{
+        grid-column: 1/6;
+        grid-row: 5/6;
+    }
+    
+    .input_1 input{
+        padding: 1% 5% 1% 1%;
+        margin: 0 auto;
+    }
+    
+    .input_2 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_3 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_4 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_5 a input{
+        padding: 1% 5%;
+        background-color: #181816;
+        color: #ACAEAA;
+        border-radius: none;
+        cursor: pointer;
+    }
+    
+    .image_grid{
+        display: grid;
+        grid-template: repeat(5, 80px) / repeat(4, 1fr);
+        float: right;
+    }
+    
+    .grids_child4 input{
+        margin: 5% 0% 0% 8%;
+    }
+    
+    .img{
+        background: url(../img/BlogPosts_FNL.jpg) center / cover;
+        grid-column: 3/6;
+        grid-row: 1/7;
+    }
+}
+
+/* ======================================================================================================================================== */
+
+        /* Адаптация на 300px */
+@media screen and (max-width: 300px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #first_block{
+        width: 100%;
+        height: 90vh;
+        background: url(../img/567310_view-from-the-google-offices-in-downtown-tokyo-mac-wallpapers_2560x1600_h.jpg) center left no-repeat  fixed;
+    }
+    
+    .block_main_menu{
+        width: 100%;
+        height: 15vh;
+        display: block;
+    }
+    
+    .text_menu{
+        width: 50px;
+        height: 15%;
+        padding: 5% 22%;
+    }
+    
+    .text_menu h1{
+        font-size: 25px;
+        color: #E40506;
+        margin: 0 auto;
+    }
+    
+    .text_menu h1:hover{
+        color: rgba(150, 15, 145, 0.8);
+        transition: 1.5s;
+    }
+    
+    .nav_menu{
+        width: 45%;
+        height: 15%;
+        padding: 1% 0% 1% 3%;
+        padding: 0% 25%;
+    
+    }
+    
+    .nav_menu ul{
+        list-style: none;
+        float: left;
+        display: block;
+    }
+    
+    .nav_menu ul a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .nav_menu li:hover{
+        text-decoration: underline;
+        color: rgba(0, 250, 250, .8);
+    }
+
+    .fa-search:hover{
+        color: rgba(0, 20, 50, .4);
+        font-size: 20px;
+    }
+    
+    .next_bottom_text{
+        width: 60%;
+        height: 20%;
+        margin: 0% 20%;
+    }
+    
+    .next_bottom_text h1{
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    /* Second Block grids */
+    
+    #grid_block1{
+        width: 90%;
+        height: 100vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child1{
+        display: grid;
+        grid-template: repeat(4, 100px) / repeat(3, 1fr);
+        grid-gap: 5px;
+        width: 100%;
+    }
+    
+    .photo_1{
+        background: url(../img/EMO_WizardsUnite_01.jpg)  center no-repeat fixed;
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+    
+    .photo_2{
+        background: url(../img/djs_wwfmagazine_01.jpg) center / cover ;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    
+    .photo_3{
+        background: url(../img/jo_glaciersrequiem_01.jpg) bottom / cover;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    
+    .photo_4{
+        background: url(../img/mb_saksfifthavenue_06.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    
+    .photo_5{
+        background: url(../img/mg_eo_cooperhewitt_01.jpg) center / cover;
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    
+    /* third block grids */
+    
+    #grid_block2{
+        width: 90%;
+        height: 110vh;
+        padding: 0% 5%;
+    }
+    
+    .grids_child2{
+        display: grid;
+        grid-template: repeat(4, 100px) / repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    
+    .photos_1{
+        background: url(../img/LH_ColgateUniversity_Identity_001.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    
+    .photos_2{
+        background: url(../img/nj_milly_01.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+    
+    .photos_3{
+        background: url(../img/ah_williammorris_02.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    
+    .photos_4{
+        background: url(../img/jr_bertazzoni_01.jpg) right center/ cover;
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    
+    .photos_5{
+        background: url(../img/lh_designedbyapple_01.jpg)  center  no-repeat fixed;
+        grid-column: 1/5;
+        grid-row: 3/5;
+    }
+    
+    /* Fourth block grids */
+    
+    #grid_block3{
+        width: 90%;
+        height: 100vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child3{
+        display: grid;
+        grid-template: repeat(4, 100px) / repeat(4, 1fr);
+        grid-gap: 10px;
+        width: 100%;
+    }
+    
+    .photos1{
+        background: url(../img/ps_highline_02_newwebsite.jpg) center no-repeat fixed;
+        grid-column: 1/5;
+        grid-row: 3/5;
+    }
+    
+    .photos2{
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    
+    .photos3{
+        background: url(../img/2021_PS_Public.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+    
+    .photos4{
+        background: url(../img/DJS_GoodDog_1.jpg) center / cover;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    
+    .photos5{
+        background: url(../img/dl_lcc_01.jpg) center / cover;
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    
+    /* Fifth block grids */
+    
+    #grid_block4{
+        width: 90%;
+        height: 100vh;
+        padding: 2% 5%;
+    }
+    
+    .grids_child4{
+        display: grid;
+        grid-template: repeat(7, 80px) / repeat(4, 1fr);
+        grid-gap: 10x;
+    }
+    
+    .input_1{
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+    
+    .input_2{
+        grid-column: 1/5;
+        grid-row: 4/5;
+    }
+    
+    .input_3{
+        grid-column: 1/5;
+        grid-row: 5/6;
+    }
+    
+    .input_4{
+        grid-column: 1/5;
+        grid-row: 6/7;
+    }
+    
+    .input_5{
+        grid-column: 1/5;
+        grid-row: 7/8;
+    }
+    
+    .input_1 input{
+        padding: 1% 3% 1% 2%;
+    }
+    
+    .input_2 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_3 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_4 input{
+        padding: 1% 5% 1% 1%;
+    }
+    
+    .input_5 a input{
+        padding: 1% 5%;
+        background-color: #181816;
+        color: #ACAEAA;
+        border-radius: none;
+        cursor: pointer;
+    }
+        
+    .img{
+        background: url(../img/BlogPosts_FNL.jpg) center / cover;
+        grid-column: 1/5;
+        grid-row: 1/3;
+    }
+}
